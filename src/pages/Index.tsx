@@ -7,7 +7,7 @@ const Index = () => {
       <div className="absolute top-1/2 left-1/4 w-[300px] h-[300px] rounded-full bg-accent/20 blur-[80px] pointer-events-none" />
 
       <div className="relative text-center z-10">
-        <h1 className="text-4xl font-bold text-foreground">Teste</h1>
+        <h1 className="text-4xl font-bold text-foreground">Pinto grandão</h1>
       </div>
     </div>
   );
