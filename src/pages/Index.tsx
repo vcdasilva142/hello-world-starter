@@ -7,6 +7,7 @@ const Index = () => {
       <div className="absolute top-1/2 left-1/4 w-[300px] h-[300px] rounded-full bg-accent/20 blur-[80px] pointer-events-none" />
 
       <div className="relative text-center z-10">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Cane_corso_g%C5%82owa_profil_493o.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original" alt="Dog image" className="mt-4 mx-auto max-w-full h-auto rounded-lg" />
         <h1 className="text-4xl font-bold text-foreground">UNKOYNX SAFADÃO</h1>
       </div>
     </div>
