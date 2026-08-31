@@ -9,7 +9,7 @@ const Index = () => {
       <div className="absolute top-1/2 left-1/4 w-[300px] h-[300px] rounded-full bg-accent/20 blur-[80px] pointer-events-none" />
 
       <div className="relative text-center z-10">
-        <img src="/placeholder.svg" alt="Pet care illustration" className="mt-4 mx-auto max-w-sm h-auto rounded-lg" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Pets_and_how_to_care_for_them_%281921%29_%2814759489366%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original" alt="Pet care illustration" className="mt-4 mx-auto max-w-sm h-auto rounded-lg" />
         <h1 className="text-4xl font-bold text-foreground">UnkoynXPetszadas</h1>
         <p className="mt-2 text-lg text-muted-foreground">Cuidado e amor para seu melhor amigo</p>
         <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center">
