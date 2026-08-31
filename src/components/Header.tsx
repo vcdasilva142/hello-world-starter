@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-50 w-full backdrop-blur-md bg-background/80 border-b border-border/40 shadow-sm">
+    <header className="fixed top-0 left-0 right-0 z-50 w-full backdrop-blur-md bg-background/80 border-b border-border/40 shadow-sm">
       <div className="max-w-6xl mx-auto flex items-center justify-between px-4 md:px-8 py-4">
         <div className="flex items-center gap-2 font-bold text-xl text-foreground">
           <span className="text-2xl">🐾</span> PetShop Amigo
