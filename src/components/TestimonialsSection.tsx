@@ -30,7 +30,7 @@ const testimonials = [
 
 export default function TestimonialsSection() {
   return (
-    <section className="relative w-full max-w-6xl mx-auto z-10 py-16 px-4 md:px-8">
+    <section className="relative w-full max-w-7xl mx-auto z-10 py-16 px-4 md:px-8">
       <div className="text-center space-y-4 mb-12">
         <div className="inline-flex items-center space-x-2 bg-primary/10 text-primary px-4 py-1.5 rounded-full text-sm font-semibold mx-auto">
           <Star className="w-4 h-4 fill-primary" />

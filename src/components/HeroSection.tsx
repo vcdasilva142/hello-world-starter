@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full max-w-6xl mx-auto z-10 grid grid-cols-1 md:grid-cols-2 gap-12 items-center py-12 md:py-24 px-4 md:px-8">
+    <section className="relative w-full max-w-7xl mx-auto z-10 grid grid-cols-1 md:grid-cols-2 gap-12 items-center py-12 md:py-24 px-4 md:px-8">
       {/* Coluna Esquerda: Textos e Botões */}
       <div className="flex flex-col space-y-6 text-left">
         <div className="inline-flex items-center space-x-2 bg-primary/10 text-primary px-4 py-1.5 rounded-full text-sm font-semibold w-fit">
