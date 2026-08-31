@@ -10,7 +10,7 @@ const Index = () => {
 
       <div className="relative text-center z-10">
         <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Cane_corso_g%C5%82owa_profil_493o.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original" alt="Dog image" className="mt-4 mx-auto max-w-sm h-auto rounded-lg" />
-        <h1 className="text-4xl font-bold text-foreground">UnkoyPets</h1>
+        <h1 className="text-4xl font-bold text-foreground">UnkoynXPetszadas</h1>
         <p className="mt-2 text-lg text-muted-foreground">Cuidado e amor para seu melhor amigo</p>
         <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center">
           <Button size="lg">Agende uma consulta</Button>
