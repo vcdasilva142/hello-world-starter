@@ -6,7 +6,7 @@ export default function HeroSection() {
       {/* Coluna Esquerda: Textos e Botões */}
       <div className="flex flex-col space-y-6 text-left">
           <div className="inline-flex items-center space-x-2 bg-primary/10 text-primary px-5 py-1.5 rounded-full text-sm font-normal tracking-wide w-fit">
-          🐾 Amor, saúde e carinho para o seu melhor amigo
+          Amor, saúde e carinho para o seu melhor amigo
         </div>
           <h1 className="text-4xl md:text-6xl font-normal tracking-tight text-foreground leading-tight">
           O melhor cuidado que o seu pet merece!
