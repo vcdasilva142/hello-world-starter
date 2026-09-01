@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import DogCarousel from "@/components/DogCarousel";
 
 export default function HeroSection() {
   return (
@@ -39,11 +40,7 @@ export default function HeroSection() {
         <div className="relative bg-card border border-black/10 rounded-[2.6rem] p-3 shadow-2xl shadow-black/20 w-64">
           <div className="absolute top-3 left-1/2 -translate-x-1/2 w-28 h-6 bg-black rounded-full z-20" />
           <div className="relative overflow-hidden rounded-[2rem]">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Visitor_walking_happy_dog_leash_hoh_campground_camping_pets_d_archuleta_march_05_2015_%2816751947833%29.jpg/1920px-Visitor_walking_happy_dog_leash_hoh_campground_camping_pets_d_archuleta_march_05_2015_%2816751947833%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-              alt="Cão feliz no petshop"
-              className="w-full h-[440px] object-cover"
-            />
+            <DogCarousel />
           </div>
         </div>
       </div>

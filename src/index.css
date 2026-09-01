@@ -123,3 +123,16 @@ All colors MUST be HSL.
 #lovable-badge {
   display: none !important;
 }
+
+@keyframes hero-carousel-zoom {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.12);
+  }
+}
+
+.hero-carousel-zoom {
+  animation: hero-carousel-zoom 3.5s ease-in-out forwards;
+}
