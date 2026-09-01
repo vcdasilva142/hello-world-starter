@@ -6,20 +6,20 @@ export default function HeroSection() {
       {/* Coluna Esquerda: Textos e Botões */}
       <div className="flex flex-col space-y-6 text-left">
           <div className="inline-flex items-center space-x-2 bg-primary/10 text-primary px-5 py-1.5 rounded-full text-sm font-normal tracking-wide w-fit">
-          Amor, saúde e carinho para o seu melhor amigo
+          Cuidado completo para quem você ama
         </div>
           <h1 className="text-4xl md:text-6xl font-normal tracking-tight text-foreground leading-tight">
-          O melhor cuidado que o seu pet merece!
+          Seu pet feliz, saudável e cheio de energia!
         </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-lg">
-          Oferecemos banho e tosa carinhosos, consultas veterinárias completas e espaço de hospedagem confortável com acompanhamento integral.
+          Do banho e tosa à consulta veterinária, cuidamos de cada detalhe com carinho para o seu melhor amigo se sentir em casa.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 pt-2">
             <Button size="lg" className="text-base font-normal px-8 py-6 rounded-2xl shadow-lg shadow-primary/20 hover:shadow-xl transition-all bg-primary text-primary-foreground">
-            Agendar Atendimento
+            Quero Agendar
           </Button>
             <Button variant="outline" size="lg" className="text-base font-normal px-8 py-6 rounded-2xl">
-            Conhecer Serviços
+            Ver Serviços
           </Button>
         </div>
       </div>
