@@ -15,12 +15,16 @@ export default function HeroSection() {
           Do banho e tosa à consulta veterinária, cuidamos de cada detalhe com carinho para o seu melhor amigo se sentir em casa.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 pt-2">
-            <Button size="lg" className="text-base font-normal px-8 py-6 rounded-2xl shadow-lg shadow-primary/20 hover:shadow-xl transition-all bg-primary text-primary-foreground">
-            Quero Agendar
-          </Button>
-            <Button variant="outline" size="lg" className="text-base font-normal px-8 py-6 rounded-2xl">
-            Ver Serviços
-          </Button>
+          <a href="#contato" className="inline-flex">
+              <Button size="lg" className="text-base font-normal px-8 py-6 rounded-2xl shadow-lg shadow-primary/20 hover:shadow-xl transition-all bg-primary text-primary-foreground">
+                Quero Agendar
+              </Button>
+            </a>
+            <a href="#servicos" className="inline-flex">
+              <Button variant="outline" size="lg" className="text-base font-normal px-8 py-6 rounded-2xl">
+                Ver Serviços
+              </Button>
+            </a>
         </div>
       </div>
 

@@ -19,10 +19,14 @@ const Index = () => {
           <HeroSection />
         </section>
         <div className="relative w-full flex flex-col items-center justify-start px-4 md:px-8 py-8 space-y-20">
-          <ServicesSection />
+          <div id="servicos" className="scroll-mt-24 w-full">
+            <ServicesSection />
+          </div>
           <ProductsSection />
           <TestimonialsSection />
-          <ContactSection />
+          <div id="contato" className="scroll-mt-24 w-full">
+            <ContactSection />
+          </div>
         </div>
       </main>
       <Footer />
