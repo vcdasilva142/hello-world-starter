@@ -5,20 +5,20 @@ export default function HeroSection() {
     <section className="relative w-full max-w-7xl mx-auto z-10 grid grid-cols-1 md:grid-cols-2 gap-16 items-center py-16 md:py-28 px-4 md:px-8">
       {/* Coluna Esquerda: Textos e Botões */}
       <div className="flex flex-col space-y-6 text-left">
-          <div className="inline-flex items-center space-x-2 bg-primary/10 text-primary px-5 py-1.5 rounded-full text-sm font-normal uppercase tracking-wide w-fit">
-          🐾 AMOR, SAÚDE E CARINHO PARA O SEU MELHOR AMIGO
+          <div className="inline-flex items-center space-x-2 bg-primary/10 text-primary px-5 py-1.5 rounded-full text-sm font-normal tracking-wide w-fit">
+          🐾 Amor, saúde e carinho para o seu melhor amigo
         </div>
-          <h1 className="text-4xl md:text-6xl font-normal uppercase tracking-tight text-foreground leading-tight">
-          O MELHOR CUIDADO QUE O SEU PET MERECE!
+          <h1 className="text-4xl md:text-6xl font-normal tracking-tight text-foreground leading-tight">
+          O melhor cuidado que o seu pet merece!
         </h1>
-          <p className="text-lg md:text-xl uppercase text-muted-foreground max-w-lg">
-          OFERECEMOS BANHO E TOSA CARINHOSOS, CONSULTAS VETERINÁRIAS COMPLETAS E ESPAÇO DE HOSPEDAGEM CONFORTÁVEL COM ACOMPANHAMENTO INTEGRAL.
+          <p className="text-lg md:text-xl text-muted-foreground max-w-lg">
+          Oferecemos banho e tosa carinhosos, consultas veterinárias completas e espaço de hospedagem confortável com acompanhamento integral.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 pt-2">
-            <Button size="lg" className="text-base uppercase font-normal px-8 py-6 rounded-2xl shadow-lg shadow-primary/20 hover:shadow-xl transition-all bg-primary text-primary-foreground">
+            <Button size="lg" className="text-base font-normal px-8 py-6 rounded-2xl shadow-lg shadow-primary/20 hover:shadow-xl transition-all bg-primary text-primary-foreground">
             Agendar Atendimento
           </Button>
-            <Button variant="outline" size="lg" className="text-base uppercase font-normal px-8 py-6 rounded-2xl">
+            <Button variant="outline" size="lg" className="text-base font-normal px-8 py-6 rounded-2xl">
             Conhecer Serviços
           </Button>
         </div>

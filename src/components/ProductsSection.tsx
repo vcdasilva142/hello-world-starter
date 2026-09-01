@@ -76,7 +76,7 @@ export default function ProductsSection() {
                 </span>
               </div>
               <CardHeader className="p-4 pb-2">
-                <span className="text-xs font-semibold text-primary uppercase tracking-wider">
+                <span className="text-xs font-semibold text-primary tracking-wider">
                   {product.category}
                 </span>
                 <CardTitle className="text-base font-bold text-foreground line-clamp-2 min-h-[3rem]">
